@@ -1,0 +1,51 @@
+/*--------------------------------------- Navbar*/
+.teal{
+    color: #00cdcd !important;
+}
+
+nav, .nav-size {
+    font-size: 20px ;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    margin:0 7px;
+}
+
+#nav-contact{
+    margin-right: 20px;
+}
+
+/*--------------------------------------- Main*/
+
+.bg-art {
+    background-image:url("/Images/building.jpg");
+    background-size: 100% auto;
+    padding: 20px;
+    
+}
+
+.main {
+    
+    max-width: 1200px;
+    background-color: rgba(255,255,255,0.6);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.section{
+    margin: 50px;
+}
+
+.headshot{
+    height:20%;
+    width: 20%;
+    min-height: 75px;
+    min-width: 75px;
+    border-radius: 50%;
+}
+
+.bio-head {
+    display: inline-block;
+    vertical-align: bottom;
+}

@@ -1,0 +1,51 @@
+/*------------------------------------------------OLD delete unused */
+/*
+.header {
+    background-color: #000000; 
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header ul {
+    color:#ffffff;
+    list-style-type: none;
+}
+
+.header div{
+    display: inline-block; 
+    text-align: center;
+    margin: 0px 30px;
+}
+.header li {
+    margin: 0px 20px;
+}
+
+.header-name h1 {
+    margin-top: 0px;
+}
+
+.header {
+    color: #00cdcd;
+}
+*/
+/*------------------------------------- New */
+
+.ppp {
+    font-size: 20px;
+}
+
+.navbar-brand{
+    color: #00cdcd !important;
+    padding-left: 30%;
+}
+@media only screen and (max-width: 980px) {
+    .x{
+        position: fixed;
+        left:50%;
+        top:10px;
+        z-index: 10;
+    }
+  }
+  
