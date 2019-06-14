@@ -22,7 +22,7 @@ nav, .nav-size {
 /*--------------------------------------- Main*/
 
 .bg-art {
-    background-image:url("/Images/building_black-mirrored.jpg");
+    background-image:url("/assets/building_black-mirrored.jpg");
     background-size: 100% auto;
     padding: 20px;
     
@@ -157,15 +157,6 @@ footer {
     margin: 0;
 }
 
-.copyright{
-
-
-}
-.social {
-
-
-
-}
 .social-links {
     padding-bottom: 15px;
 }
@@ -192,7 +183,6 @@ footer {
     padding: 15px;
     font-size: 20px;
 }
-
 
 
 /*--------------------------------------- Interactive*/
