@@ -25,7 +25,7 @@ nav, .nav-size {
 
 
 .bg-art {
-    background-image:url("/assets/building_black-mirrored.jpg");
+    background-image:url("../assets/building_black-mirrored.jpg");
     background-size: 100% auto;
     padding: 20px;
     
