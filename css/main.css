@@ -19,7 +19,10 @@ nav, .nav-size {
 .navbar-brand {
     margin-left: 25px;
 }
+/*--------------------------------------- Section IDs*/
+
 /*--------------------------------------- Main*/
+
 
 .bg-art {
     background-image:url("/assets/building_black-mirrored.jpg");
@@ -94,6 +97,35 @@ hr {
 }
 /*--------------------------------------- Tour*/
 
+.tour-div-mobile{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgba(0,0,0,0.5);
+    background-color: rgba(255,255,255,0.4);
+    font-size: 20px;
+    margin-bottom: 8px;
+    padding: 15px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.date-mobile{
+    display: block;
+    font-weight: bold;   
+    padding:15px 35px 10px 35px;
+    
+}
+
+.location-mobile {
+    display: block;
+    margin-left: 2%;
+}
+
+.tickets-mobile{
+    margin: 0px auto;
+
+}
+
 .tour-div{
     margin-left: 6%;
     margin-right: 6%;
@@ -102,6 +134,7 @@ hr {
     font-size: 20px;
     margin-bottom: 8px;
 }
+
 
 .date{
     display: inline-block;
@@ -127,12 +160,13 @@ button {
     font-weight: bold;
     border-color: black;
     transition: 0.15s;
-    
+    cursor: pointer;
 }
 
 button:disabled,button[disabled]{
     background-color:#aaaaaa !important;
     color: #cccccc;
+    cursor: default;
 }
 /*--------------------------------------- Contact*/
 
@@ -155,10 +189,16 @@ footer {
     color: #AAAAAA;
     min-height: 75px;
     margin: 0;
+    padding-top: 5px;
+}
+
+.copyright{
+    margin-top: 5px;
+    float:left;
 }
 
 .social-links {
-    padding-bottom: 15px;
+    float: right;
 }
 
 .social-links li a i {
@@ -181,7 +221,7 @@ footer {
 
 #footer-details {
     padding: 15px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -197,8 +237,9 @@ button:hover {
 
 /*--------------------------------------- Media Queries*/
 
-/* @media only screen and (max-width: 600px) {
-  .section {
-    margin: 0px;
+ @media only screen and (max-width: 442px) {
+  #footer-details {
+    font-size: 12px;
   }
 }
+

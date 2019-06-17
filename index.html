@@ -12,7 +12,7 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" type="text/css" />
     <title>Philip Glass</title>
-    <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="assets/favicon.png" sizes="16x16" type="image/png">
 </head>
 
 <body>
@@ -45,7 +45,6 @@
     <article>
         <div class="bg-art">
             <div class="main">
-
                 <div class=" home section" id="home">
                     <div style="position:relative;padding-top:56.25%;">
                         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/3y4pIYV6yh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;">
@@ -53,10 +52,10 @@
                     </iframe>
                     </div>
 
-                    <br>
+                    <br id="bio">
                     <hr>
 
-                    <div class=" bio section" id="bio">
+                    <div class=" bio section" >
                         <img src="assets/glass.jpg" class="headshot" alt="PG Headshot"></img>
                         <h1 class="head bio-head">Bio</h1>
                         <p>Glass was born in 1937 and grew up in Baltimore. He studied at the University of Chicago, the Juilliard School and in Aspen with Darius Milhaud. Finding himself dissatisfied with much of what then passed for modern music, he moved
@@ -70,10 +69,10 @@
                             and unprecedented impact upon the musical and intellectual life of his times.</p>
                     </div>
 
-                    <br>
+                    <br id="works">
                     <hr>
 
-                    <div class="works section" id="works">
+                    <div class="works section" >
                         <h1 class="head works-head">Sample Works</h1>
                         <div class="work-box d-md-flex">
                             <div class="spot-div">
@@ -106,11 +105,57 @@
                         </div>
                     </div>
 
-                    <br>
+                    <br id="tour">
                     <hr>
 
-                    <div class="tour section" id="tour">
+                    <div class="tour section" >
                         <h1 class="head tour-head">Tour Dates</h1>
+                        
+                        <div class="d-md-none text-align-center">
+                            <div class="tour-div-mobile">
+                                
+                                    <p class="font-weight-bold">JUL 08</p>
+                                    <p><span class="font-weight-bold">Sunrise, Florida</span><br> BB&T Center</p>
+                                
+                                <a href="#"><button class="tickets-mobile">TICKETS</button></a>
+                            </div>
+                            
+                            <div class="tour-div-mobile">
+                                
+                                    <p class="font-weight-bold">JUL 12</p>
+                                    <p><span class="font-weight-bold">Atlanta, Georgia</span><br> Cellairis Amphitheatre</p>
+                                
+                                <a href="#"><button class="tickets-mobile">TICKETS</button></a>
+                            </div>
+                            
+                            <div class="tour-div-mobile">
+                                
+                                    <p class="font-weight-bold">JUL 14</p>
+                                    <p><span class="font-weight-bold">Charlotte, N. Carolina</span><br> PNC Music Pavilion</p>
+                                
+                                <a href="#"><button class="tickets-mobile">TICKETS</button></a>
+                            </div>
+                            
+                            <div class="tour-div-mobile">
+                                
+                                    <p class="font-weight-bold">JUL 16</p>
+                                    <p><span class="font-weight-bold">Bristow, Virginia</span><br> Jiffy Lube Live</p>
+                                
+                                <a href="#"><button class="tickets-mobile">TICKETS</button></a>
+                            </div>
+                            
+                            <div class="tour-div-mobile">
+                                
+                                    <p class="font-weight-bold">JUL 19</p>
+                                    <p><span class="font-weight-bold">Brooklyn, New York</span><br> Barclays Center</p>
+                                
+                                <a href="#"><button class="tickets-mobile">TICKETS</button></a>
+                            </div>
+                        
+                        </div>
+                        
+                        
+                        <div class="d-none d-md-block">
                         <div class="tour-div">
                             <div class="date">
                                 <p>JUL <br>08</p>
@@ -162,10 +207,10 @@
                         </div>
                     </div>
 
-                    <br>
+                    <br id="contact">
                     <hr>
 
-                    <div class="contact section" id="contact">
+                    <div class="contact section" >
                         <h1 class="head contact-head">Contact</h1>
                         <div class="row bg-color-contact">
                             <div class="col">
@@ -188,15 +233,11 @@
             </div>
     </article>
 
-<footer class="container-fluid bg-dark ">
-        <div id="row footer-details">
-            <div class="col-12 col-sm-6 copyright">
-                <p>
-                    © 2019 <span class="teal">PHILIP GLASS. </span>ALL RIGHTS RESERVED.
-                </p>
-            </div>
+    <footer class="container-fluid bg-dark ">
+        <div class="row" id="footer-details">
             
-            <div class="col-12 col-sm-6 social">
+
+            <div class="col-12 col-md-5 social">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
                         <a target="_blank" href="https://www.facebook.com/Philip-Glass-197280947006687/">
@@ -229,6 +270,11 @@
                         </a>
                     </li>
                 </ul>
+            </div>
+            <div class="col-12 col-md-7 copyright">
+                <p>
+                    © 2019 <span class="teal">PHILIP GLASS. </span>ALL RIGHTS RESERVED.
+                </p>
             </div>
         </div>
     </footer>
