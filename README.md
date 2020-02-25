@@ -1,6 +1,6 @@
 # Philip Glass
 
-This is a website about for the American 'minimalist' composer Philip Glass.
+This is a website about the American 'minimalist' composer Philip Glass.
 It is intended to be a simple, user-friendly introduction to the composer, focusing on a clean design, rather than overloading on details.
 The user is first presented with a video of one of his compositions being performed, and then is offered some information on him, some samples of his work, tickets to upcoming concerts, and a contact form.
 
